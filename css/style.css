@@ -333,12 +333,82 @@ button:hover {
         border-color:var(--secondary-color);
     }
 /*04 about section*/
-
-
+.landing_about_section{
+    background:url("../images/about/about-banner.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding:9rem 0;
+}
+.landing_about_section p{
+    color: var(--primary-text);
+    margin-bottom:2rem;
+}
 /*05 product card design*/
+.landing_product_section .product-card{
+    position:relative;
+    overflow:hidden;
+    cursor:pointer;
+    border:0.2rem solid var(--light-color);
+    padding: 2rem 1rem;
+    transition:all 0.3s;
+
+}
+.landing_product_section .product-card .product-img{
+    margin-bottom:7rem;
+    text-align: center;
+}
+.landing_product_section .product-card h3{
+    color:var(--primary-text);
+}
+.landing_product_section .product-card span{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:var(--secondary-color);
+    margin-right:0.5rem;
+    text-decoration: line-through;
+    transition:all 0.3s;
+}
+.landing_product_section .product-card .product-detail{
+    position:absolute;
+    bottom: -22rem;
+    right:0;
+    left:0;
+    text-align: center;
+    padding:5rem 1rem;
+    background-color:var(--dark-color);
+    transition:all 0.5s ease;
+}
+.landing_product_section .product-card:hover .product-detail{
+    bottom:0;
+}
 
 
 /*06 testimonial*/
+.testimonal_section{
+    background-color:var(--light-color);
+    padding-bottom:8rem;
+}
+.testimonal_section .carousel-indicators{
+    bottom:-6rem;
+}
+.testimonial_section .carousel-indicators button{
+    background-color:var(--dark-color);
+    width:1.2rem;
+    height:1.2rem;
+    border-radius:50;
+}
+.testimonial_section .card{
+    background:url('../images/testimonial/testimonial-bg.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    text-align: right;
+    padding:0 .5rem 5rem 0;
+    border:0.1rem solid transparent;
+    
+}
 
 
 /*07 gallery css*/
