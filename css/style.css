@@ -18,7 +18,7 @@
 
     /* background color */
     --bg-white:#fff;
-
+    --bg-dark-color: #03262c;
     /*text colors*/
     --primary-text: #061738;
     --secondary-color:#60cd12;
@@ -322,6 +322,16 @@ button:hover {
     margin-top:1.5rem;
     color:var(--primary-text);
 }
+.feature_section .features-box:hover{
+    background-color:var(--bg-dark-color);
+    border-color:var(--bg-dark-color);
+}
+.feature_section .features-box:hover h3{
+    color:var(--text-white);
+    }
+    .feature_section .features-box:hover .features-icon-border{
+        border-color:var(--secondary-color);
+    }
 /*04 about section*/
 
 
