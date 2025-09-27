@@ -386,11 +386,11 @@ button:hover {
 
 
 /*06 testimonial*/
-.testimonal_section{
+.testimonial_section{
     background-color:var(--light-color);
     padding-bottom:8rem;
 }
-.testimonal_section .carousel-indicators{
+.testimonial_section .carousel-indicators{
     bottom:-6rem;
 }
 .testimonial_section .carousel-indicators button{
@@ -407,11 +407,24 @@ button:hover {
     text-align: right;
     padding:0 .5rem 5rem 0;
     border:0.1rem solid transparent;
-    
 }
+.testimonial_section .profile-box{
+    padding:1.875rem;
+    background-color:var(--dark-color);
+    border-radius: .5rem 0 0 .5rem;
+}
+.testimonial_section .profile-box img{
+    border-radius: .625rem 3.125rem;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.testimonial_section .desc-box{
+    padding-left:2.5rem;
+}
+    
+    /*07 gallery css*/
 
-
-/*07 gallery css*/
 
 
 
